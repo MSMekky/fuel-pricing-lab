@@ -1,0 +1,7 @@
+__pycache__/
+*.egg-info/
+.venv/
+.pytest_cache/
+data/raw/*
+!data/raw/osm_fr_fuel_stations.csv
+data/processed/

@@ -1,0 +1,204 @@
+{
+ "diesel": {
+  "stations": {
+   "total": 2251,
+   "others": 7332,
+   "station_days": 2487279,
+   "first_day": "2026-01-05",
+   "last_day": "2026-09-27"
+  },
+  "usual_premium_ct": 8.172244897959185,
+  "share_at_cap_value": {
+   "total_when_binding": 0.8730917388594462,
+   "others_when_binding": 0.02630408828844939,
+   "total_calm": 0.0
+  },
+  "days_binding": 56,
+  "gap_peak": {
+   "week": "2026-03-30",
+   "ct": -25.99849397715405
+  },
+  "gap_mean_when_binding_ct": -16.632272796381706,
+  "gap_peak_no_motorway_ct": -25.74529539146096,
+  "stockout_peak": {
+   "week": "2026-04-06",
+   "hours": 9.59739978089631
+  },
+  "stockout_calm_h": {
+   "total": 0.11553427718711305,
+   "others": 0.06319965347559857
+  },
+  "dose": {
+   "intercept_h": 0.8751919724802535,
+   "slope_h_per_ct": 0.3656513303404125,
+   "slope_ci": [
+    0.23914958708845735,
+    0.4463921702423379
+   ],
+   "days": 187
+  },
+  "dose_table": [
+   {
+    "bin": "(-inf, 0.0]",
+    "days": 131,
+    "excess_stockout_h": 1.0426102204,
+    "mean_gap_ct": -11.6958015267
+   },
+   {
+    "bin": "(0.0, 5.0]",
+    "days": 16,
+    "excess_stockout_h": 1.0950508966,
+    "mean_gap_ct": 3.154375
+   },
+   {
+    "bin": "(5.0, 10.0]",
+    "days": 8,
+    "excess_stockout_h": 3.3227461081,
+    "mean_gap_ct": 7.35
+   },
+   {
+    "bin": "(10.0, 15.0]",
+    "days": 6,
+    "excess_stockout_h": 4.0599523974,
+    "mean_gap_ct": 12.6483333333
+   },
+   {
+    "bin": "(15.0, 20.0]",
+    "days": 21,
+    "excess_stockout_h": 6.4636582936,
+    "mean_gap_ct": 16.899047619
+   },
+   {
+    "bin": "(20.0, inf]",
+    "days": 5,
+    "excess_stockout_h": 12.4572380484,
+    "mean_gap_ct": 22.94
+   }
+  ],
+  "spillover_min_ct": -2.097644454795194,
+  "spillover_mean_apr_jun_ct": -1.5151208829085974,
+  "driver": {
+   "weeks": 28,
+   "p_gain_positive_min": 0.58085,
+   "worst_week": "2026-04-06",
+   "p_empty_max": 0.41821880465992006,
+   "expected_gain_eur_mean": 3.505989457035901
+  }
+ },
+ "e10": {
+  "stations": {
+   "total": 1892,
+   "others": 5899,
+   "station_days": 1987126,
+   "first_day": "2026-01-05",
+   "last_day": "2026-09-27"
+  },
+  "usual_premium_ct": 6.412551020408162,
+  "share_at_cap_value": {
+   "total_when_binding": 0.8772985024710298,
+   "others_when_binding": 0.024258633805229662,
+   "total_calm": 0.0
+  },
+  "days_binding": 106,
+  "gap_peak": {
+   "week": "2026-09-21",
+   "ct": -24.771111654079597
+  },
+  "gap_mean_when_binding_ct": -11.221097502800339,
+  "gap_peak_no_motorway_ct": -24.346678988576834,
+  "stockout_peak": {
+   "week": "2026-09-21",
+   "hours": 9.381507866566595
+  },
+  "stockout_calm_h": {
+   "total": 0.3111477742882968,
+   "others": 0.0852030381916137
+  },
+  "dose": {
+   "intercept_h": 2.4995677540998256,
+   "slope_h_per_ct": 0.33921131393301956,
+   "slope_ci": [
+    0.2730312386622307,
+    0.40049493497371164
+   ],
+   "days": 177
+  },
+  "dose_table": [
+   {
+    "bin": "(-inf, 0.0]",
+    "days": 71,
+    "excess_stockout_h": 1.7778876956,
+    "mean_gap_ct": -4.503028169
+   },
+   {
+    "bin": "(0.0, 5.0]",
+    "days": 63,
+    "excess_stockout_h": 4.2465423937,
+    "mean_gap_ct": 2.4206349206
+   },
+   {
+    "bin": "(5.0, 10.0]",
+    "days": 19,
+    "excess_stockout_h": 4.9865724402,
+    "mean_gap_ct": 6.9355263158
+   },
+   {
+    "bin": "(10.0, 15.0]",
+    "days": 4,
+    "excess_stockout_h": 6.042204857,
+    "mean_gap_ct": 12.7125
+   },
+   {
+    "bin": "(15.0, 20.0]",
+    "days": 17,
+    "excess_stockout_h": 7.9789678554,
+    "mean_gap_ct": 17.7585294118
+   },
+   {
+    "bin": "(20.0, inf]",
+    "days": 3,
+    "excess_stockout_h": 10.3164231889,
+    "mean_gap_ct": 20.4
+   }
+  ],
+  "spillover_min_ct": -1.4090366164644688,
+  "spillover_mean_apr_jun_ct": -0.8256238113692429,
+  "driver": {
+   "weeks": 25,
+   "p_gain_positive_min": 0.5875,
+   "worst_week": "2026-09-21",
+   "p_empty_max": 0.4079870194841591,
+   "expected_gain_eur_mean": 2.80271464563008
+  }
+ },
+ "cost": {
+  "eur_million": {
+   "p05": 284.44324543151066,
+   "p50": 463.4145809365025,
+   "p95": 639.9642462598518
+  },
+  "by_fuel_eur_million": {
+   "diesel": {
+    "p05": 210.52609661429193,
+    "p50": 342.7541616404684,
+    "p95": 476.9487766039579
+   },
+   "e10": {
+    "p05": 71.77861216668882,
+    "p50": 118.69873004319182,
+    "p95": 174.1913626978209
+   }
+  },
+  "assumptions": {
+   "stations": 3300,
+   "litres_per_station_year": [
+    2000000.0,
+    5000000.0
+   ],
+   "diesel_share": [
+    0.65,
+    0.75
+   ]
+  }
+ }
+}
