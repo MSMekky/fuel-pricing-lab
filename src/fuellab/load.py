@@ -151,7 +151,8 @@ def stockout_hours(stockouts: pd.DataFrame, fuel_nom: str, start, end) -> pd.Dat
 
 BRAND_RULES = [
     ("total", r"\btotal"),            # TotalEnergies, Total, Total Access: the capped network
-    ("elan", r"\b[ée]lan\b"),            # rural brand supplied by TotalEnergies; kept separate
+    ("elan", r"(?:^|[^a-z0-9])[ée]lan(?:[^a-z0-9]|$)"),   # rural brand supplied by TotalEnergies; kept separate
+    # (no \b here: with pandas 3 string columns the regex engine treats \b as ASCII-only, so "\bélan" never matches)
     ("supermarket", r"leclerc|intermarch|carrefour|auchan|super u|syst[eè]me u|^u$|station u|hyper u|casino|"
                     r"netto|leader price|cora|g[ée]ant|match|lidl|bi1|colruyt|spar"),
     ("other_brand", r"esso|avia|\bbp\b|shell|\beni\b|agip|dyneff|vito|elf|oil|q8|ad[bp]|bolloré|ecomarch"),
